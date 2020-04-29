@@ -9,4 +9,7 @@ public class BasicSelenium extends TestManager{
         String title = driver.getTitle();
         Assertions.assertEquals(title, "Trello");
     }
+
+    @Test
+    public void loginTest(){}
 }
