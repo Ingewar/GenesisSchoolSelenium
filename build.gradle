@@ -24,3 +24,7 @@ test {
         showStandardStreams = true
     }
 }
+
+task print {
+    println "Gradle task print"
+}
