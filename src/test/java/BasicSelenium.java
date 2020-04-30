@@ -10,7 +10,7 @@ public class BasicSelenium extends TestManager{
         Assertions.assertEquals(title, "Trello");
     }
 
-    @Test
+    @Test //some comment
     public void loginTest(){}
 
 }
